@@ -4,8 +4,7 @@
 > She was supposed to stay on the page.  
 > She didn’t.  
 
-Now there’s an app, a universe, and no clear way back —  
-as Mose Njo used to say, before Lisy took over.
+Now there’s an app, a universe, and no clear way back—as Mose Njo used to say, before Lisy took over.
 
 This repository contains the code that powers [https://lisy.app](https://lisy.app), a digital doorway into the Lisy universe: stories, voices, secrets, and curious adventures in Malagasy and French.
 
