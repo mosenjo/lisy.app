@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>lisy ✨</title>
+  <title>lisy.app ✨</title>
   <meta name="description" content="lisy — stories, language, and a growing universe.">
   <style>
     :root {
@@ -43,7 +43,7 @@
       margin: 0 0 14px 0;
     }
 
-    /* thin blue baseline like on your blog vibe */
+   
     .rule {
       height: 2px;
       width: 48px;
@@ -60,16 +60,16 @@
       margin: 0 0 18px 0;
     }
 
+    
     a {
       color: var(--text);
       text-decoration: underline;
       text-underline-offset: 3px;
-      text-decoration-color: rgba(0,0,0,0.25);
-      transition: text-decoration-color 160ms ease, color 160ms ease, background 160ms ease;
+      text-decoration-color: var(--lisy-blue);
+      transition: opacity 160ms ease;
     }
     a:hover {
-      color: var(--text);
-      text-decoration-color: var(--lisy-blue);
+      opacity: 0.7;
     }
     a:focus-visible {
       outline: 2px solid var(--lisy-blue);
@@ -96,20 +96,8 @@
     .links {
       margin-top: 18px;
       padding-top: 14px;
-      border-top: 1px solid rgba(0,0,0,0.08);
+      border-top: 1px solid var(--lisy-blue);
       position: relative;
-    }
-    /* subtle blue pixel at the start of the divider */
-    .links::before {
-      content: "";
-      position: absolute;
-      top: -1px;
-      left: 0;
-      height: 2px;
-      width: 28px;
-      background: var(--lisy-blue);
-      border-radius: 2px;
-      transform: translateY(-50%);
     }
 
     .row {
@@ -132,20 +120,7 @@
       line-height: 1.5;
     }
 
-    /* blue highlight on keywords to echo your blog accent */
-    .chip {
-      display: inline-block;
-      padding: 0 6px;
-      border-radius: 6px;
-      background: rgba(0, 194, 255, 0.10);
-      border: 1px solid rgba(0, 194, 255, 0.25);
-      font-style: normal;
-      font-size: 14px;
-      margin-left: 6px;
-      transform: translateY(-1px);
-    }
-
-    /* small screens: tighten spacing a touch */
+    
     @media (max-width: 420px) {
       .label { flex-basis: 64px; }
       .row { gap: 10px; }
@@ -154,7 +129,7 @@
 </head>
 <body>
   <main class="container" role="main">
-    <h1>lisy____</h1>
+    <h1>lisy.app</h1>
     <div class="rule" aria-hidden="true"></div>
 
     <p>
@@ -169,8 +144,7 @@
         <span class="label">atlas</span>
         <div class="copy">
           <a href="https://atlas.lisy.app" target="_blank" rel="noopener">click here</a>
-          for the love of malagasy language—but not only
-          <span class="chip">#00C2FF</span>
+          for the love of malagasy language—but not only 🏄‍♂️
         </div>
       </div>
 
